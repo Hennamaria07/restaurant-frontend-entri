@@ -7,7 +7,7 @@ export const Detail = () => {
   const { id } = useParams();
   console.log(id);
 
-  const newRest = rest.find((data) => data._id == id);
+  const newRest = rest.find((data) => data._id === id);
   console.log(newRest);
   return (
     <Container>
